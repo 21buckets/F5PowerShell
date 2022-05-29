@@ -13,7 +13,7 @@ This function is used to programatically update the F5 Big-IP APM Secure Web Gat
 
 The function compares what is currently set on the F5 to reduce the amount of change required, meaning it will only modify the required changes each time it is executed.
 
-The functions are written for a specific use case where the provided list of URL categories was provided in a format that could not be changed.
+The functions are written for a specific use case where the provided list of URL categories was in a format that could not be changed by me.
 To make this more flexible, there is a separate function "Convert-InputURLCategoriesToHash" that converts the input data to a hash table for easier manipulation. 
 
 At some stage I might make this into a larger F5 utilities PowerShell Module, but for now it is just a set of functions
