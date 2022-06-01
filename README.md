@@ -18,6 +18,9 @@ To make this more flexible, there is a separate function "Convert-InputURLCatego
 
 At some stage I might make this into a larger F5 utilities PowerShell Module, but for now it is just a set of functions
 
+
+`Note:` The new categories are created as 'blocked' as the source file did not specify the required behaviour, so it stays as default.
+
 ### Dependencies
 
 The main function is dependent on the [pwshf5 module](https://github.com/21buckets/pwshf5) written by Cale Robertson, but forked by me to add additional functions that werent available. 
